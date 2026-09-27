@@ -1,11 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="hr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>U ponudi - Kafić Maverick</title>
-</head>
-<body>
-    
-</body>
+  </head>
+
+  <body>
+    <header>
+      <h1>Kafić Maverick</h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Početna</a></li>
+          <li>Ponuda</li>
+          <li><a href="o-nama.html">O nama</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Ponuda pića i kolača</h2>
+        <style>
+          table {
+            border-collapse: separate;
+            width: 25%;
+          }
+          th,td {
+            text-align: left;
+          }
+        </style>
+        <table>
+          <caption>
+            Cjenovnik
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Kategorija</th>
+              <th scope="col">Naziv</th>
+              <th scope="col">Cijena</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th scope="row">Kava</th>
+              <td scope="row">Espresso</th>
+              <td scope="row">1,80€</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Kava</th>
+              <td scope="row">Capuccino</td>
+              <td scope="row">2,20€</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Hladno piće</th>
+              <td scope="row">Limunada</td>
+              <td scope="row">2,50€</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Topli napitak</th>
+              <td scope="row">Čaj</td>
+              <td scope="row">2,00€</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Kolač</th>
+              <td scope="row">Cheesecake</td>
+              <td scope="row">3,50€</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Kolač</th>
+              <td scope="row">Torta od mrkve</td>
+              <td scope="row">3,50€</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Kolač</th>
+              <td scope="row">Mađarica</td>
+              <td scope="row">3,20€</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      
+      <section>
+        <h2>Narudžba kolača</h2>
+        <p>Kafić nudi mogućnost naručivanja kolača po želji za rođendane ili druge posebne prigode.</p>
+        <ol>
+          <li>Kontakirajte nas telefonom ili preko E-pošte <a href="kontakt">ovdje</a></li>
+          <li>Ispunite kontaktni obrazac</li>
+          <li>Dogovorite datum preuzimanja kolača unaprijed</li>
+        </ol>
+      </section>
+
+      <aside>
+        <p>
+          <strong>Napomena:</strong> Dostavu kolača nužni ste sami organizirati.
+        </p>
+      </aside>
+
+      <section>
+        <hr />
+        <h2>Galerija kolača</h2>
+        
+        <figure>
+            <img src="images/cheesecake.jpg" width="250" alt="Slika cheesecakea" />
+            <figcaption>Cheesecake</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/madjarica.jpg" width="250" alt="Slika mađarice" />
+            <figcaption>Mađarica</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/tortaodmrkve.jpg" width="250" alt="Slika torte od mrkve" />
+            <figcaption>Torta od mrkve</figcaption>
+        </figure>
+
+      </section>
+    </main>
+
+    <footer>
+      <hr />
+      <p>&copy; Kafić Maverick</p>
+    </footer>
+  </body>
 </html>
